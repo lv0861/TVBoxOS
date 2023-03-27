@@ -4,6 +4,7 @@ android {
     compileSdkVersion 30
 
     defaultConfig {
+        missingDimensionStrategy 'react-native-camera', 'general' <-- insert this line
         applicationId 'com.github.tvbox.osc'
         minSdkVersion 16
         targetSdkVersion 26
